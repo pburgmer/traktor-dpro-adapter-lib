@@ -102,7 +102,7 @@ function setInputPort(port) {
   }
 }
 
-function setInputPort(port) {
+function setOutputPort(port) {
   var portId = port.id || port;
 
   if (config.ports.out !== portId) {
